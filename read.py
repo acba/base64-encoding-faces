@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import base64
 import time
+import csv
 
 def base64_to_numpy(data):
   _bytes = data.encode('utf-8')
